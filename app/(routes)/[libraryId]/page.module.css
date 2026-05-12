@@ -34,6 +34,7 @@
   display: block;
   text-transform: uppercase;
   margin-bottom: 8px;
+  opacity: 0.8;
 }
 
 .postcard h3 {
@@ -77,7 +78,7 @@
   flex-wrap: wrap;
 }
 
-.buttons.extraSmall img {
+/* .buttons.extraSmall img {
   width: 90px;
   height: 90px;
   filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2));
@@ -93,11 +94,11 @@
   width: 140px;
   height: 140px;
   filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2));
-}
+} */
 
 .buttons img {
-  width: 160px;
-  height: 160px;
+  width: 360px;
+  height: 360px;
   filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2));
 }
 

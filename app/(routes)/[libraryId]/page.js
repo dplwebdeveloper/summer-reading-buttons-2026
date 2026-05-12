@@ -28,6 +28,7 @@ export default function LibraryPage() {
   const searchParams = useSearchParams();
   const btnParam = searchParams.get("btn"); // button index
   const btn = btnParam === "" || btnParam === null ? "0" : btnParam;
+  const btnIndex = Number(btn);
   const { buttons } = useButtonsContext();
   const [loaded, setLoaded] = useState(false);
 
@@ -54,13 +55,20 @@ export default function LibraryPage() {
     >
       <div className={styles.postcard}>
         <h2>
-          <span>Buttons From</span> {libraryInfo.name}
+          <span>This Button Came From</span> {libraryInfo.name}
         </h2>
         <div className={styles.content}>
           <div
             className={`${styles.buttons} ${libraryInfo.images.length > 9 ? styles.extraSmall : libraryInfo.images.length > 6 ? styles.small : libraryInfo.images.length > 4 ? styles.medium : ""}`}
           >
-            {libraryInfo.images?.map((image, i) => (
+            <Image
+              src={libraryInfo.images[btnIndex].src}
+              width={libraryInfo.images[btnIndex].width}
+              height={libraryInfo.images[btnIndex].height}
+              blurDataURL={libraryInfo.images[btnIndex].blurDataURL}
+              alt=""
+            />
+            {/* {libraryInfo.images?.map((image, i) => (
               <div key={`btn_${i}`}>
                 <Image
                   className={`${i}` === btn ? styles.selected : ""}
@@ -71,7 +79,7 @@ export default function LibraryPage() {
                   alt=""
                 />
               </div>
-            ))}
+            ))} */}
           </div>
           <div className={styles.info}>
             <h3>{libraryInfo.city}, MI</h3>
