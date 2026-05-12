@@ -28,6 +28,7 @@
   border-radius: 50px;
   width: 110px;
   text-align: center;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .nav .selectedIndicator {
