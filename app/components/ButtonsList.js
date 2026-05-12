@@ -18,7 +18,14 @@ export default function ButtonsList() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.actions}>
-        <p>Click any button to learn where it came from!</p>
+        <p>
+          <em>
+            Todo: Add better intro text and mobile views, move/update dinos
+            above (thinking dino-button-rainbow around header text?).
+          </em>
+          <br />
+          Click on a button to see who made it!
+        </p>
         <button
           className={styles.shuffleBtn}
           onClick={() => {

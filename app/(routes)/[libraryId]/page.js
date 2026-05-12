@@ -108,6 +108,9 @@ export default function LibraryPage() {
           </Link>
         </div>
       )}
+      <div className={styles.allButtons}>
+        <Link href="/">All Buttons</Link>
+      </div>
     </main>
   );
 }

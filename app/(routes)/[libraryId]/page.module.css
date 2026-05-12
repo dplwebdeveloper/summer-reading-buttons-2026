@@ -122,15 +122,25 @@
 }
 
 .prevAndNext span {
-  background-color: var(--primary);
   position: absolute;
   bottom: 0px;
+}
+
+.prevAndNext span,
+.allButtons a {
+  background-color: var(--primary);
   padding: 6px 12px;
   border-radius: 20px;
   font-weight: 600;
   display: flex;
   align-items: center;
   gap: 6px;
+}
+
+.allButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* .buttons img.selected {

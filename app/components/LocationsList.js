@@ -19,14 +19,21 @@ export default function LocationsList() {
         ))}
       </ul>
       <div>
-        <p>Is your local library not on this list?</p>
-        <p>You can still check out your library for summer reading fun! :)</p>
-        <p>99%* of U.S. libraries offer some sort of summer reading program.</p>
-        <p>
-          Take a trip to your local library and see what events and activities
-          they have in store for the summer.
-        </p>
-        <p>* According to the 2022 Public Library Association Annual Survey</p>
+        <p>Todo - will style this, add lil dinos.</p>
+        <em>
+          <p>Is your local library not on this list?</p>
+          <p>You can still check out your library for summer reading fun! :)</p>
+          <p>
+            99%* of U.S. libraries offer some sort of summer reading program.
+          </p>
+          <p>
+            Take a trip to your local library and see what events and activities
+            they have in store for the summer.
+          </p>
+          <p>
+            * According to the 2022 Public Library Association Annual Survey
+          </p>
+        </em>
       </div>
     </>
   );
