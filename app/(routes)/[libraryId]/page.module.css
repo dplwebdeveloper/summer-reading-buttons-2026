@@ -1,0 +1,139 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dino {
+  width: 200px;
+  height: 200px;
+}
+
+.postcard {
+  background-color: rgb(219, 205, 178);
+  border: 1px solid rgb(199, 181, 156);
+  padding: 30px 24px;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.04);
+}
+
+.postcard h2 {
+  font-family: "Caveat", serif;
+  font-size: 32px;
+  display: block;
+  margin-bottom: 28px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.postcard h2 span {
+  font-family: "Special Elite", serif;
+  font-size: 26px;
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.postcard h3 {
+  font-family: "Special Elite", serif;
+  font-size: 22px;
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 312px;
+  gap: 10px;
+  text-align: center;
+  padding: 16px;
+  background-color: rgb(249, 241, 231);
+  transform: rotate(1deg);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+  width: 461px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.buttons.extraSmall img {
+  width: 90px;
+  height: 90px;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.buttons.small img {
+  width: 120px;
+  height: 120px;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.buttons.medium img {
+  width: 140px;
+  height: 140px;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.buttons img {
+  width: 160px;
+  height: 160px;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.prevAndNext {
+  margin: 40px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.prevAndNext a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.prevAndNext a:hover img {
+  opacity: 1;
+}
+
+.prevAndNext img {
+  width: 110px;
+  height: 110px;
+  opacity: 0.5;
+  transition: opacity 0.2s linear;
+}
+
+.prevAndNext span {
+  background-color: var(--primary);
+  position: absolute;
+  bottom: 0px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* .buttons img.selected {
+  width: 140px;
+  height: 140px;
+} */

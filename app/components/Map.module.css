@@ -1,0 +1,19 @@
+.leafletContent p {
+  margin: 0px;
+}
+
+.leafletContent p:last-of-type {
+  margin-bottom: 10px;
+}
+
+.leafletContent a {
+  color: var(--primary-dark);
+  margin-top: 10px;
+}
+
+.popupTitle {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0px !important;
+  padding-bottom: 2px;
+}

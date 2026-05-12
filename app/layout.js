@@ -1,13 +1,19 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Bangers, Nunito } from "next/font/google";
 import "./globals.css";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
+import { ButtonsProvider } from "./components/ButtonsProvider";
+import ScrollToTop from "./components/ScrollToTop";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const bangersFont = Bangers({
+  weight: "400",
+  variable: "--font-bangers",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const nunitoFont = Nunito({
+  // weight: '400',
+  variable: "--font-nunito",
   subsets: ["latin"],
 });
 
@@ -18,8 +24,18 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
-      <body>{children}</body>
+    <html
+      lang="en"
+      className={`${bangersFont.variable} ${nunitoFont.variable}`}
+    >
+      <body>
+        <ButtonsProvider>
+          <Nav />
+          {children}
+          <Footer />
+        </ButtonsProvider>
+        <ScrollToTop />
+      </body>
     </html>
   );
 }

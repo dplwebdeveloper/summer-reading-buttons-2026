@@ -1,0 +1,95 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+.actions {
+  width: 1150px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.shuffleBtn {
+  padding-left: 16px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  max-width: 1300px;
+}
+
+.buttons img {
+  width: 230px;
+  height: 230px;
+  position: relative;
+}
+
+/* don't need to add animation to every button, just the first ones on the page */
+.buttons img:nth-child(-n + 20) {
+  opacity: 0;
+  animation: fadeIn 1.2s ease 0s 1 forwards;
+}
+
+/* for adding a little stagger */
+.buttons img:nth-child(-n + 20).delay0 {
+  animation-delay: 0s;
+}
+
+.buttons img:nth-child(-n + 20).delay1 {
+  animation-delay: 0.05s;
+}
+
+.buttons img:nth-child(-n + 20).delay2 {
+  animation-delay: 0.1s;
+}
+
+.buttons img:nth-child(-n + 20).delay {
+  animation-delay: 0.15s;
+}
+
+.buttons a {
+  transition: transform 0.2s ease;
+}
+
+.buttons a:hover {
+  transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .actions {
+    width: 900px;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .actions {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .actions {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
