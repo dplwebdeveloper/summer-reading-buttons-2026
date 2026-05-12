@@ -45,6 +45,22 @@
   margin-bottom: 0px;
 }
 
+.showAll .postcard {
+  padding: none;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.showAll .postcard h2 {
+  background-color: rgb(212, 222, 206);
+  border-bottom: none;
+  padding: 16px;
+  padding-top: 22px;
+  /* border: 1px solid rgb(211, 223, 204); */
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.04);
+}
+
 .content {
   display: flex;
   justify-content: center;
@@ -69,6 +85,11 @@
   max-width: 100%;
 }
 
+.showAll .info {
+  background-color: rgb(191, 209, 213);
+  /* border: 1px solid rgb(187, 206, 208); */
+}
+
 .buttons {
   max-width: 100%;
   width: 461px;
@@ -78,23 +99,35 @@
   flex-wrap: wrap;
 }
 
-/* .buttons.extraSmall img {
+.buttons.list.extraSmall img {
   width: 90px;
   height: 90px;
-  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2));
 }
 
-.buttons.small img {
+.buttons.list.small img {
   width: 120px;
   height: 120px;
-  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2));
 }
 
-.buttons.medium img {
+.buttons.list.medium img {
   width: 140px;
   height: 140px;
-  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2));
-} */
+}
+
+.buttons.list.mediumLarge img {
+  width: 160px;
+  height: 160px;
+}
+
+.buttons.list.almostLarge img {
+  width: 180px;
+  height: 180px;
+}
+
+.buttons.list img {
+  width: 280px;
+  height: 280px;
+}
 
 .buttons img {
   width: 360px;
@@ -150,6 +183,7 @@
   justify-content: center;
   align-items: center;
   gap: 12px;
+  margin-top: 40px;
 }
 
 /* .buttons img.selected {

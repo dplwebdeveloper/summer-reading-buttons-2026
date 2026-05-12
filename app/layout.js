@@ -1,9 +1,9 @@
 import { Bangers, Nunito } from "next/font/google";
 import "./globals.css";
-import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import { ButtonsProvider } from "./components/ButtonsProvider";
 import ScrollToTop from "./components/ScrollToTop";
+import Header from "./components/Header";
 
 const bangersFont = Bangers({
   weight: "400",
@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
     >
       <body>
         <ButtonsProvider>
-          <Nav />
+          <Header />
           {children}
           <Footer />
         </ButtonsProvider>

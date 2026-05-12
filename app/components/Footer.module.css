@@ -7,3 +7,12 @@
   gap: 20px;
   margin: 40px 0px;
 }
+
+.footer a {
+  text-decoration: underline;
+  color: #185d18;
+}
+
+.footer a:hover {
+  color: #104710;
+}
