@@ -108,8 +108,10 @@ export default function LibraryPage() {
           </Link>
         </div>
       )}
-      <div className={styles.allButtons}>
+      <div className={styles.all}>
         <Link href="/">All Buttons</Link>
+        <Link href="/map">All Participants</Link>
+        <Link href="/about">About</Link>
       </div>
     </main>
   );

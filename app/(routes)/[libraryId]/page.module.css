@@ -134,7 +134,7 @@
 }
 
 .prevAndNext span,
-.allButtons a {
+.all a {
   background-color: var(--primary);
   padding: 6px 12px;
   border-radius: 20px;
@@ -144,10 +144,11 @@
   gap: 6px;
 }
 
-.allButtons {
+.all {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 12px;
 }
 
 /* .buttons img.selected {
