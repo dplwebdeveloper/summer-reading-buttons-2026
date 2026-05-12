@@ -65,6 +65,7 @@ export default function MiniMap({ loc }) {
       }}
       ref={setMap}
       zoomControl={false}
+      dragging={!L.Browser.mobile}
     >
       <TileLayer url={TILE_MAP_URL} attribution={TILE_MAP_ATTR} />
       {map && (

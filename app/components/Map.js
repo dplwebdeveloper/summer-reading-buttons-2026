@@ -161,9 +161,11 @@ export default function Map() {
       style={{
         height: "680px",
         width: "900px",
+        maxWidth: "100%",
         borderRadius: "10px",
         border: "1px solid #a1631150",
       }}
+      dragging={!L.Browser.mobile}
       ref={setMap}
     >
       <TileLayer url={TILE_MAP_URL} attribution={TILE_MAP_ATTR} />

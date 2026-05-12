@@ -16,6 +16,7 @@
 
 .shuffleBtn {
   padding-left: 16px;
+  color: var(--foreground);
 }
 
 .buttons {
