@@ -34,6 +34,13 @@ export default function LocationsList() {
             * According to the 2022 Public Library Association Annual Survey
           </p>
         </em>
+        <br />
+        <em>
+          <p>
+            Does your library or library-affiliated organization want to join
+            next year? Learn more.
+          </p>
+        </em>
       </div>
     </>
   );
