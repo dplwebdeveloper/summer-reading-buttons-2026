@@ -75,3 +75,15 @@ a {
   transform: scale(0.7);
   transform-origin: bottom;
 }
+
+/* Hackily move the leaflet zoom controls so it doesn't cover Ontonagon on mobile */
+
+.leaflet-top.leaflet-left {
+  top: 0px;
+  left: auto;
+  right: 0px;
+}
+
+.leaflet-top.leaflet-left .leaflet-control-zoom {
+  margin-right: 10px;
+}

@@ -184,9 +184,19 @@
   align-items: center;
   gap: 12px;
   margin-top: 40px;
+  flex-wrap: wrap;
 }
 
 /* .buttons img.selected {
   width: 140px;
   height: 140px;
 } */
+
+@media screen and (max-width: 600px) {
+  .postcard {
+    text-align: center;
+  }
+  .postcard h2 span {
+    font-size: 22px;
+  }
+}
