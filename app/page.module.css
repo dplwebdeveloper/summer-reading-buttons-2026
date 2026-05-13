@@ -4,6 +4,7 @@
   align-items: center;
   flex-direction: column;
   padding: 20px;
+  padding-top: 0px;
 }
 
 .intro h1 {
@@ -17,6 +18,7 @@
 }
 
 .dino {
-  width: 200px;
-  height: 200px;
+  max-width: 100%;
+  width: calc(3390px / 5);
+  height: auto;
 }

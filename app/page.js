@@ -1,8 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import dino1 from "./assets/hero/dino-1.png";
-import dino2 from "./assets/hero/dino-2.png";
-import Link from "next/link";
+import dinos from "./assets/hero/dinos.webp";
 import ButtonsList from "./components/ButtonsList";
 
 export default function Page() {
@@ -12,17 +10,10 @@ export default function Page() {
         <div className={styles.rainbow}>
           <Image
             className={styles.dino}
-            src={dino1}
-            width={400}
-            height={400}
-            alt="Green dino on a skateboard"
-          />
-          <Image
-            className={styles.dino}
-            src={dino2}
-            width={400}
-            height={400}
-            alt="Orange dino on a skateboard"
+            src={dinos}
+            width={875}
+            height={404}
+            alt="Smiling dinosaurs have received a box of buttons in the mail and are inspecting one!"
           />
         </div>
       </div>

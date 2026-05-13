@@ -6,11 +6,22 @@
   padding: 0px 30px;
 }
 
+.wrapper p {
+  font-size: 18px;
+}
+
+.intro {
+  max-width: 100%;
+  width: 750px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 .actions {
   width: 1150px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin: 20px 0px;
   gap: 20px;
 }
 
@@ -62,6 +73,15 @@
 
 .buttons a:hover {
   transform: scale(1.05);
+}
+
+.intro a {
+  text-decoration: underline;
+  color: #185d18;
+}
+
+.intro a:hover {
+  color: #104710;
 }
 
 @keyframes fadeIn {

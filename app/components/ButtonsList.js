@@ -17,14 +17,16 @@ export default function ButtonsList() {
   useEffect(() => setShuffleKey(1), []);
   return (
     <div className={styles.wrapper}>
+      <div className={styles.intro}>
+        <p>
+          Libraries (and library supporters) created and shared buttons with
+          each other to promote summer reading in Michigan. This year's summer
+          reading theme is <a href="/about#summer-reading">Unearth a Story</a>.
+        </p>
+      </div>
       <div className={styles.actions}>
         <p>
-          <em>
-            Todo: Add better intro text and mobile views, move/update dinos
-            above (thinking dino-button-rainbow around header text?).
-          </em>
-          <br />
-          Click on a button to see who made it!
+          <strong>Click on a button to see who made it!</strong>
         </p>
         <button
           className={styles.shuffleBtn}
