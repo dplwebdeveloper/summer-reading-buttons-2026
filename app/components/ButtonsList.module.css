@@ -21,7 +21,8 @@
   width: 1150px;
   display: flex;
   justify-content: space-between;
-  margin: 20px 0px;
+  align-items: center;
+  margin: 28px 0px;
   gap: 20px;
 }
 

@@ -2,13 +2,7 @@
 
 import "leaflet/dist/leaflet.css";
 import { useState } from "react";
-import {
-  MapContainer,
-  Marker,
-  Popup,
-  TileLayer,
-  ZoomControl,
-} from "react-leaflet";
+import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import L from "leaflet";
 import styles from "./Map.module.css";
 import { libraryData } from "../data/libraries";

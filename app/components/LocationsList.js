@@ -18,23 +18,35 @@ export default function LocationsList() {
           </li>
         ))}
       </ul>
-      <div>
-        <p>Todo - will style this, add lil dinos.</p>
+      <div className={styles.summerReadingNote}>
+        <h3>Not Seeing Your Library on This List?</h3>
+        <p>You can still check out your library for summer reading fun! :)</p>
+        <p>99%* of U.S. libraries offer some sort of summer reading program.</p>
+        <p>
+          Take a trip to your local library and see what events and activities
+          they have in store for the summer.
+        </p>
+        <p className={styles.footnote}>
+          * According to the 2022 Public Library Association Annual Survey
+        </p>
         <em>
-          <p>Is your local library not on this list?</p>
-          <p>You can still check out your library for summer reading fun! :)</p>
           <p>
-            99%* of U.S. libraries offer some sort of summer reading program.
-          </p>
-          <p>
-            Take a trip to your local library and see what events and activities
-            they have in store for the summer.
-          </p>
-          <p>
-            * According to the 2022 Public Library Association Annual Survey
+            Does your library or library-affiliated organization want to join
+            next year? Learn more.
           </p>
         </em>
-        <br />
+      </div>
+      <div className={styles.summerReadingNote}>
+        <h3>Not Seeing Your Library on This List?</h3>
+        <p>You can still check out your library for summer reading fun! :)</p>
+        <p>99%* of U.S. libraries offer some sort of summer reading program.</p>
+        <p>
+          Take a trip to your local library and see what events and activities
+          they have in store for the summer.
+        </p>
+        <p className={styles.footnote}>
+          * According to the 2022 Public Library Association Annual Survey
+        </p>
         <em>
           <p>
             Does your library or library-affiliated organization want to join

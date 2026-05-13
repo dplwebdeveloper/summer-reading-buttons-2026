@@ -20,5 +20,11 @@
 .dino {
   max-width: 100%;
   width: calc(3390px / 5);
-  height: auto;
+  height: calc(1616px / 5);
+}
+
+@media screen and (max-width: 700px) {
+  .dino {
+    height: auto;
+  }
 }
