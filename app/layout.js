@@ -18,7 +18,7 @@ const nunitoFont = Nunito({
 });
 
 export const metadata = {
-  title: "Button Exchange",
+  title: "Library Button Exchange",
   description: "Summer Reading 2026 Michigan Library Button Exchange",
 };
 

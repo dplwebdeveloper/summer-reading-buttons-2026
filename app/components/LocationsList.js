@@ -20,23 +20,25 @@ export default function LocationsList() {
       </ul>
       <div className={styles.summerReadingNote}>
         <h3>Not Seeing Your Library on This List?</h3>
-        <p>You can still check out your library for summer reading fun! :)</p>
-        <p>99%* of U.S. libraries offer some sort of summer reading program.</p>
         <p>
-          Take a trip to your local library and see what events and activities
-          they have in store for the summer.
+          <strong>
+            You can still check out your library for summer reading fun!
+          </strong>{" "}
+          99% of U.S. libraries offer some sort of summer reading program.* Take
+          a trip to your local library and see what events and activities they
+          have in store for the summer.
         </p>
         <p className={styles.footnote}>
-          * According to the 2022 Public Library Association Annual Survey
+          *According to the 2022 Public Library Association Annual Survey
         </p>
-        <em>
+        {/* <em>
           <p>
             Does your library or library-affiliated organization want to join
             next year? Learn more.
           </p>
-        </em>
+        </em> */}
       </div>
-      <div className={styles.summerReadingNote}>
+      {/* <div className={styles.summerReadingNote}>
         <h3>Not Seeing Your Library on This List?</h3>
         <p>You can still check out your library for summer reading fun! :)</p>
         <p>99%* of U.S. libraries offer some sort of summer reading program.</p>
@@ -53,7 +55,7 @@ export default function LocationsList() {
             next year? Learn more.
           </p>
         </em>
-      </div>
+      </div> */}
     </>
   );
 }
