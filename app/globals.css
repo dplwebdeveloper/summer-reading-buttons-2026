@@ -52,15 +52,7 @@ h1 {
 
 a {
   color: inherit;
-}
-
-a {
-  text-decoration: underline;
-  color: #185d18;
-}
-
-a:hover {
-  color: #104710;
+  text-decoration: none;
 }
 
 .sr-only:not(:focus):not(:active) {

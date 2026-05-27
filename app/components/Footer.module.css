@@ -8,3 +8,12 @@
   margin: 40px 0px;
   padding: 20px;
 }
+
+.footer a {
+  text-decoration: underline;
+  color: #185d18;
+}
+
+.footer a:hover {
+  color: #104710;
+}

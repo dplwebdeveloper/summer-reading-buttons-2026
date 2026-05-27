@@ -43,3 +43,12 @@
   border-left: 2px solid rgba(103, 125, 143, 0.253);
   padding-left: 8px;
 }
+
+.content a {
+  text-decoration: underline;
+  color: #185d18;
+}
+
+.content a:hover {
+  color: #104710;
+}
