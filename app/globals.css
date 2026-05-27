@@ -16,12 +16,12 @@
 
 body {
   color: var(--foreground);
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   background-color: var(--background);
 }
 
 button {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   padding: 6px 10px;
   border-radius: var(--br-large);
   display: flex;
@@ -41,7 +41,7 @@ button:hover {
 }
 
 h1 {
-  font-family: "Bangers", sans-serif;
+  font-family: 'Bangers', sans-serif;
 }
 
 * {
@@ -52,7 +52,15 @@ h1 {
 
 a {
   color: inherit;
-  text-decoration: none;
+}
+
+a {
+  text-decoration: underline;
+  color: #185d18;
+}
+
+a:hover {
+  color: #104710;
 }
 
 .sr-only:not(:focus):not(:active) {
