@@ -127,7 +127,7 @@ export default function AboutPage() {
             (This is actually the final version. It went through multiple
             revisions as we went. – see lessons learned.)
             <span className={styles.ll}>
-              Lessons Learned: This would’ve gone a lot smoother if we’d posted
+              Lessons learned: This would’ve gone a lot smoother if we’d posted
               the instructions online to begin with. Originally, we were
               emailing a copy of the instructions to everyone. That meant that
               there could be versions of the instructions floating around that
@@ -150,7 +150,7 @@ export default function AboutPage() {
             We set a submission deadline (which we later had to revise – see
             lessons learned).
             <span className={styles.ll}>
-              Lessons Learned: We set our original target date much too soon. We
+              Lessons learned: We set our original target date much too soon. We
               had a number of places respond saying that if they had more time,
               they’d have been happy to participate…and a lot of folks felt like
               if they had more time, they’d be able to make the buttons part of
@@ -166,7 +166,7 @@ export default function AboutPage() {
             Michigan!) and asked anyone interested in participating to send us
             an email (which we later had to revise – see lessons learned).{" "}
             <span className={styles.ll}>
-              Lessons Learned: Having participants email us was never going to
+              Lessons learned: Having participants email us was never going to
               scale well, which we realized around the 20th email with
               registration information. We set up a Google form and sent that
               link out to capture registrations, but the first two weeks or so
@@ -179,7 +179,7 @@ export default function AboutPage() {
             Our inbound deliveries volunteers received boxes of buttons and
             contacted people as they came in to let them know they’d arrived.{" "}
             <span className={styles.ll}>
-              Lessons Learned: Sending confirmations didn’t occur to us until we
+              Lessons learned: Sending confirmations didn’t occur to us until we
               were already a dozen or so deliveries in, and it didn’t account
               properly for the fact that we were receiving submissions both at
               JFK Jr and at Wilder. Next year, this will be baked in from the
@@ -191,7 +191,7 @@ export default function AboutPage() {
             to do outreach to other organizations in their communities, not just
             libraries.
             <span className={styles.ll}>
-              Lessons Learned: There’s a lot to improve here. We had success
+              Lessons learned: There’s a lot to improve here. We had success
               reaching out to other organizations, but many of them need extra
               lead time to be able to get designs approved internally or to
               order them since they don’t have the ability to make buttons in
@@ -210,7 +210,7 @@ export default function AboutPage() {
             Once the submission deadline passed, we waited a week for stragglers
             to arrive.
             <span className={styles.ll}>
-              Lessons Learned: We may think about extending this out to two
+              Lessons learned: We may think about extending this out to two
               weeks.
             </span>
           </li>
@@ -218,7 +218,7 @@ export default function AboutPage() {
             We took pictures of some of the buttons from each participant (see
             lessons learned…this is a big one!)
             <span className={styles.ll}>
-              Lessons Learned: Originally, it hadn’t really occurred to us that
+              Lessons learned: Originally, it hadn’t really occurred to us that
               people would do more than a single button design. When we started
               getting submissions that were filled with boxes of unique buttons,
               it complicated our plan to include a checklist of every button for
@@ -238,7 +238,7 @@ export default function AboutPage() {
           <li>
             Wilder bought cupcake boxes to ship everything back out in.{" "}
             <span className={styles.ll}>
-              Lessons Learned: This year the cost was minimal, but it will
+              Lessons learned: This year the cost was minimal, but it will
               become a bigger expense as we get more and more participants in
               future years. We’ll need to have some conversations about this as
               we go forward to ensure that the program remains free for
@@ -256,7 +256,7 @@ export default function AboutPage() {
             together a website for us (Thank you, DPL!), so we sent them all the
             button pictures.
             <span className={styles.ll}>
-              Lessons Learned: We’d originally envisioned this primarily living
+              Lessons learned: We’d originally envisioned this primarily living
               on social media feeds as a hashtag, so the offer to do a full site
               was incredible. What was going to come in each box was a printed
               checklist of buttons, which we realized would probably be
@@ -267,7 +267,7 @@ export default function AboutPage() {
             We talked over a social media plan to encourage folks to post
             unboxing videos and to do outreach to one another.
             <span className={styles.ll}>
-              Lessons Learned: Having someone with a good sense for social media
+              Lessons learned: Having someone with a good sense for social media
               here is really helpful. Including them earlier in the process to
               help with putting together information and develop a
               communications strategy would’ve made life a little more relaxed
@@ -279,7 +279,7 @@ export default function AboutPage() {
             comfortable with us sharing their contact info with the other
             participants and to ask them to send us pictures of their buttons.
             <span className={styles.ll}>
-              Lessons Learned: This needs to be included as an explicit part of
+              Lessons learned: This needs to be included as an explicit part of
               the signup process for next year with clear options for opting in
               or out.
             </span>
@@ -298,7 +298,7 @@ export default function AboutPage() {
           <li>
             We wrote this.{" "}
             <span className={styles.ll}>
-              Lessons Learned: Next year, this needs to be a living document
+              Lessons learned: Next year, this needs to be a living document
               instead of a retrospective. Lessons learned should be getting
               recorded as they happen, not days or weeks later.
             </span>{" "}
