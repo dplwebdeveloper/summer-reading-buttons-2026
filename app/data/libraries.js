@@ -75,7 +75,7 @@ import dplEdison1 from "@/app/assets/buttons/dpl-edison-1.png";
 import dplEdison2 from "@/app/assets/buttons/dpl-edison-2.png";
 import dplEdison3 from "@/app/assets/buttons/dpl-edison-3.png";
 import dplEdison4 from "@/app/assets/buttons/dpl-edison-4.png";
-import dplFranklin from "@/app/assets/buttons/dpl-franklin.png";
+import dplFranklin from "@/app/assets/buttons/franklin.webp";
 import dplMarketing from "@/app/assets/buttons/dpl-marketing.png";
 import dplWilder from "@/app/assets/buttons/dpl-wilder.png";
 import dso from "@/app/assets/buttons/dso.png";
@@ -92,6 +92,7 @@ import henryFord4 from "@/app/assets/buttons/henry-ford-4.png";
 import henryFord5 from "@/app/assets/buttons/henry-ford-5.png";
 import henryFord6 from "@/app/assets/buttons/henry-ford-6.png";
 import highlandTownship from "@/app/assets/buttons/highland-township.png";
+import lom from "@/app/assets/buttons/lom.webp";
 import lyon1 from "@/app/assets/buttons/lyon-1.png";
 import lyon2 from "@/app/assets/buttons/lyon-2.png";
 import lyon3 from "@/app/assets/buttons/lyon-3.png";
@@ -125,6 +126,8 @@ import northville1 from "@/app/assets/buttons/northville-1.png";
 import northville2 from "@/app/assets/buttons/northville-2.png";
 import northville3 from "@/app/assets/buttons/northville-3.png";
 import ontonagon from "@/app/assets/buttons/ontonagon.png";
+import orion1 from "@/app/assets/buttons/orion-1.webp";
+import orion2 from "@/app/assets/buttons/orion-2.webp";
 import pentwater from "@/app/assets/buttons/pentwater.png";
 import ray1 from "@/app/assets/buttons/ray-1.png";
 import ray2 from "@/app/assets/buttons/ray-2.png";
@@ -302,7 +305,7 @@ export const libraryData = [
   {
     id: "dearbornHeightsCK",
     name: "Dearborn Heights - Caroline Kennedy Library",
-    images: [dearbornHeightsCk, dearbornHeights],
+    images: [dearbornHeightsCk],
     coords: [42.332098699999996, -83.27850797116477],
     address: "24590 George St. Dearborn Heights, MI 48127",
     city: "Dearborn Heights",
@@ -454,6 +457,14 @@ export const libraryData = [
     address: "444 Beach Farm Circle",
     city: "Highland Township",
   },
+  {
+    id: "lom",
+    name: "Library of Michigan",
+    images: [lom],
+    address: "702 W Kalamazoo St, Lansing, MI 48915",
+    coords: [42.73207430090666, -84.56303308776148],
+    city: "Lansing",
+  },
   // {
   //   name: "Loutit District Library",
   //   images: "hmmmmm",
@@ -580,11 +591,14 @@ export const libraryData = [
     address: "311 N. Steel St; Ontonagon, MI 49953",
     city: "Ontonagon",
   },
-  // {
-  //   name: "Orion Township Public Library",
-  //   images: "hmmmm",
-  //   address: "825 Joslyn Road, Lake Orion, MI 48362",
-  // },
+  {
+    id: "otpl",
+    name: "Orion Township Public Library",
+    images: [orion1, orion2],
+    coords: [42.771415289657156, -83.28167590321709],
+    address: "825 Joslyn Road, Lake Orion, MI 48362",
+    city: "Orion Township",
+  },
   {
     id: "pentwater",
     name: "Pentwater District Library",
